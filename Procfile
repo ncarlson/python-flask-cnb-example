@@ -1,1 +1,2 @@
-web: poetry run python python_flask_cnb_example/main.py
+web: python main.py
+unit: python -m pytest tests.py

@@ -1,6 +1,6 @@
 from python_flask_cnb_example import __version__
 import pytest
-from python_flask_cnb_example.main import App
+from python_flask_cnb_example.app import App
 
 
 

@@ -35,6 +35,3 @@ class App(object):
             raise Exception("An error has occurred")
 
         return app
-
-if __name__ == "__main__":
-    App().create_app().run(host="0.0.0.0")
