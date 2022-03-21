@@ -30,4 +30,4 @@ def runner(app):
 
 def test_request_example(client):
     response = client.get("/hello")
-    assert b"<p>hello, world!</p>" in response.data
+    assert b"<p>hello, world</p>" in response.data
