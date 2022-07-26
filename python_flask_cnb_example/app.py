@@ -27,7 +27,7 @@ class App(object):
 
         @app.route("/hello", methods=["GET"])
         def hello():
-            return "<p>hello, world</p>"
+            return "<p>hello, world, again</p>"
 
 
         @app.route("/throw-exception", methods=["PUT"])
